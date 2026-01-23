@@ -1,14 +1,14 @@
-<h1>💳 Fraud Detection System using Logistic Regression</h1>
+<h1> Fraud Detection System using Logistic Regression</h1>
 
 <p>
 A Machine Learning based <b>Fraud Detection System</b> developed using
-<b>Logistic Regression</b> and deployed with <b>Streamlit</b>.
+<b>Logistic Regression , naive bayes , knn and the best result got in Logistic regression</b> and deployed with <b>Streamlit</b>.
 The project was built completely using the <b>Anaconda</b> environment.
 </p>
 
 <hr>
 
-<h2>📌 Project Overview</h2>
+<h2> Project Overview</h2>
 <p>
 This project focuses on detecting fraudulent transactions using supervised
 machine learning techniques. Both <b>Linear Regression</b> and
@@ -40,7 +40,7 @@ for binary classification problems.
 
 <hr>
 
-<h2>📂 Project Structure</h2>
+<h2>Project Structure</h2>
 <pre>
 Fraud-Detection-System/
 │
@@ -53,7 +53,7 @@ Fraud-Detection-System/
 
 <hr>
 
-<h2>📊 Dataset</h2>
+<h2> Dataset</h2>
 <p>
 The dataset consists of transaction-related features with the target variable:
 </p>
@@ -64,7 +64,7 @@ The dataset consists of transaction-related features with the target variable:
 
 <p>
 <b>Dataset Link:</b><br>
-<a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud" target="_blank">
+<a href="https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset">
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 </a>
 </p>
@@ -75,38 +75,38 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 <h2>⚙️ Installation & Setup</h2>
 
-<h3>1️⃣ Clone the Repository</h3>
+<h3>1️ Clone the Repository</h3>
 <pre>
 git clone https://github.com/your-username/fraud-detection-system.git
 cd fraud-detection-system
 </pre>
 
-<h3>2️⃣ Create Conda Environment</h3>
+<h3>2️ Create Conda Environment</h3>
 <pre>
 conda create -n fraud_env python=3.10
 conda activate fraud_env
 </pre>
 
-<h3>3️⃣ Install Dependencies</h3>
+<h3>3️ Install Dependencies</h3>
 <pre>
 pip install -r requirements.txt
 </pre>
 
 <hr>
 
-<h2>▶️ Run the Application</h2>
+<h2> Run the Application</h2>
 <pre>
 streamlit run app.py
 </pre>
 
 <p>
 Open the URL shown in the terminal (usually
-<b>http://localhost:8501</b>).
+<b>https://frauda.streamlit.app/</b>).
 </p>
 
 <hr>
 
-<h2>📈 Model Details</h2>
+<h2> Model Details</h2>
 <ul>
   <li><b>Algorithm:</b> Logistic Regression</li>
   <li><b>Why Logistic Regression?</b>
@@ -121,25 +121,21 @@ Open the URL shown in the terminal (usually
 
 <hr>
 
-<h2>🔮 Future Improvements</h2>
+<h2> Future Improvements</h2>
 <ul>
   <li>Apply advanced models (Random Forest, XGBoost)</li>
-  <li>Handle class imbalance using SMOTE</li>
-  <li>Cloud deployment (Streamlit Cloud / Render)</li>
-  <li>Add model explainability (SHAP / LIME)</li>
+  <li>Cloud deployment (Streamlit Cloud )</li>
+  <li>Add model explainability </li>
 </ul>
 
 <hr>
 
-<h2>👨‍💻 Author</h2>
+<h2> Author</h2>
 <p>
 <b>Vivek Upadhyay</b><br>
-Machine Learning & Full Stack Developer
+Data Scientist
 </p>
 
 <hr>
 
-<h2>⭐ Support</h2>
-<p>
-If you find this project useful, please give it a ⭐ on GitHub.
-</p>
+
