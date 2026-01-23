@@ -19,7 +19,7 @@ for binary classification problems.
 
 <hr>
 
-<h2>🚀 Features</h2>
+<h2> Features</h2>
 <ul>
   <li>Binary classification: Fraud vs Legitimate</li>
   <li>Logistic Regression based ML model</li>
@@ -29,7 +29,7 @@ for binary classification problems.
 
 <hr>
 
-<h2>🛠️ Tech Stack</h2>
+<h2> Tech Stack</h2>
 <ul>
   <li><b>Language:</b> Python</li>
   <li><b>Environment:</b> Anaconda</li>
